@@ -108,6 +108,7 @@
 
   .btn-mobile-nav {
     margin-top: 1.2rem;
+    z-index: 9999;
   }
 
   .btn-mobile-nav {
