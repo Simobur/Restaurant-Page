@@ -59,6 +59,7 @@ SPACING SYSTEM (px)
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -66,6 +67,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* ********************* */
@@ -153,9 +155,12 @@ body {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+  /* border-bottom: 1px solid currentColor; */
   padding-bottom: 2px;
   transition: all 0.3s;
+  padding: 1.2rem 2.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.001);
+  border-radius: 9px;
 }
 
 .link:hover,
